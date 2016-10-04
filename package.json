@@ -1,0 +1,23 @@
+{
+  "name": "projetophp",
+  "version": "1.0.0",
+  "description": "projeto para a aula de banco de dados",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insomanic778/projetophp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insomanic778/projetophp/issues"
+  },
+  "homepage": "https://github.com/insomanic778/projetophp#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}

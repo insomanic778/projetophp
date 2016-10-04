@@ -1,0 +1,24 @@
+{
+  "name": "projetophp",
+  "description": "projeto para a aula de banco de dados",
+  "main": "",
+  "keywords": [
+    "php",
+    "html"
+  ],
+  "authors": [
+    "Eduardo Terra"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4"
+  }
+}
