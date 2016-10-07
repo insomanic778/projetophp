@@ -14,6 +14,8 @@ gulp.task('sass', function () {
 gulp.task('build-js', function(){
 	return gulp.src([
 		'source/bower_components/jquery/dist/jquery.min.js',
+    'source/bower_components/parallax.js/parallax.min.js',
+    'source/bower_components/jquery.stellar/src/jquery.stellar.js',
 	])
   .pipe(uglify())
 	.pipe(gulp.dest('dist/js/libs'))
