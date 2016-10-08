@@ -31,7 +31,7 @@ gulp.task('minificar-js', function () {
 
 // PARTE EM QUE O GULP FICAR "ESCUTANDO" O ARQUIVO QUE VOCE ESTÁ MEXENDO, PORQUE AI É SO VOCE SALVAR QUE ELE COMPILAR AUTOMATICO
 gulp.task('watch', function () {
-  gulp.watch('source/sass/*.scss', ['sass']);
+  gulp.watch('source/sass/**/*.scss', ['sass']);
   gulp.watch('source/js/*.js',     ['minificar-js']);
 });
 

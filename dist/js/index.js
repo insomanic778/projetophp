@@ -1,1 +1,1 @@
-$(".parallax-window").parallax({imageSrc:"./dist/img/bg.jpeg"});
+$(".parallax-window").parallax({imageSrc:"./dist/img/bg.jpg"});
