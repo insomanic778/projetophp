@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Projeto PHP</title>
   <link rel="stylesheet" href="dist/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
   <header class="parallax-window" data-parallax="scroll" data-image-src="./dist/img/bg.jpeg">
@@ -20,5 +21,4 @@
       <img src="./dist/img/logo.png" class="logo" title="Logo" alt="Logo" />
       <h1 class="title">Hangar</h1>
     </div>
-
   </header>

@@ -1,14 +1,11 @@
 // ----- base -----
 @import "base/reset";
+// ----- helpers -----
 @import "helpers/variables";
+// ----- layouts -----
+@import "layout/page";
 @import "layout/menu";
 @import "layout/header";
-
-
-
-
-
-
-main {
-  height: 3000px;
-}
+@import "layout/footer";
+// ----- pages -----
+@import "pages/home-page";
