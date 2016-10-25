@@ -16,6 +16,8 @@ gulp.task('build-js', function(){
 		'source/bower_components/jquery/dist/jquery.min.js',
     'source/bower_components/parallax.js/parallax.min.js',
     'source/bower_components/jquery.stellar/src/jquery.stellar.js',
+    'source/bower_components/pinto/jquery.pinto.js',
+
 	])
   .pipe(uglify())
 	.pipe(gulp.dest('dist/js/libs'))
