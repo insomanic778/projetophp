@@ -2,8 +2,31 @@
 
 <main class="home-page">
 
+  <section class="sobre-nos" id="sobre-nos">
+  <div class="_row">
+    <div class="left">
+      <h1 class="title">Bem vindo <small>à hangar</small></h1>
+      <p class="text">
+        A empresa Hangar, fundada em 1997 em Porto Alegre, Rio Grande do Sul, com o objetivo de atender todo o mercado de alugueis de carros,
+        desde modelos mais simples, para aqueles que precisam resolver,
+        as "corridas" do dia-a-dia, até carros luxuosos, atendendo a parcela de clientes que procura emoção, qualidade e segurança.
+        O Hangar foi idealizado pelo empreendedor Felipe Trein e Aquiles Priester, juntos em sociedade, levaram a empresa onde nunca imaginaram,
+        conquistando cada vez mais o publico gauchó com toda sua diversidade de veiculos a disposição.
+      </p>
+    </div>
+    <div class="right">
+      <h1 class="title">Sobre<small>nós</small></h1>
+      <p class="text">
+          Buscamos a excelência como organização, perseguindo a satisfação dos clientes, prezando os valores éticos com relação aos colaboradores e fornecedores, respeitando o meio ambiente e garantindo a perpetuação da organização como exercício de nossa responsabilidade social.
+          Oferecemos produtos atraentes aos nossos clientes ao longo de todo o ciclo de vida do veículo, permitindo-nos crescer com rentabilidade.
+          Nossos colaboradores vivenciam os valores corporativos, o que resulta na alta satisfação dos clientes.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <section class="sobre-nos">
+
+  <!-- <section class="sobre-nos">
     <div class="_container">
       <div class="_row">
         <div class="esquerda">
@@ -46,7 +69,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="caracteristicas">
       <div class="_container">

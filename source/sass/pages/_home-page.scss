@@ -1,91 +1,68 @@
 .home-page {
   .sobre-nos {
-    padding: 50px 0;
-    background-color: #231f20;
-    // box-shadow:  inset 0 0 10px rgba(0,0,0,0.5);
-    min-height: 440px;
-    // background-color: #231F20;
-    .esquerda,
-    .direita {
+    border-bottom: solid 5px #220632;
+    .left,
+    .right {
       width: 50%;
+      height: 0;
+      padding-bottom: 35%;
       position: relative;
-    }
-    .esquerda {
-      min-height: 440px;
-      .title {
-        color: #FFCC00;
-        font-family: $fontTitle;
-        font-size: 53px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      @media (min-width: 1500px) {
+        padding-bottom: 30%;
       }
-      .text {
-        color: #fff;
-        font-size: 21px;
-        margin-top:8%;
-        font-family: $fontText;
-        text-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
-      }
+      &.right {background-image: url("../img/bg.jpg");}
+      &.left {background-image: url("../img/bg2.jpg");}
       &:after {
         content: "";
-        width: 115%;
-        height: 320px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.3);
         position: absolute;
-        top: 120px;
-        left: 500px;
-        background: url(../img/linha-sobre-nos.png) no-repeat;
+        z-index: 1;
+        top: 0;
       }
-      .btn {
-        padding: 0.5rem 0.4rem;
-        display: block;
-        color: #fff;
-        background-color: #220632;
-        font-family: $fontText;
-        text-decoration: none;
-        border-radius: 4px;
-        text-align: center;
-        font-size: 21px;
-        transition: 0.3s;
-        display: flex;
-        justify-content: center;
-
-        position: absolute;
-        bottom: -20px;
-        width: 70%;
-        &:hover {
-          background-color: rgba(#220632,0.6);
-          transition: 0.3s;
-        }
-        i {
-          margin-left: 20px;
-        }
-      }
-    }
-    .direita {
-      text-align: right;
       .title {
-        margin-top: 65px;
-        margin-bottom: 48px;
-        font-family: $fontTitle;
-        font-size: 39px;
-        color: #FFCC00;
+        font-family: Montserrat;
+        font-size: 3rem;
+        color: #fff;
         text-transform: uppercase;
-      }
-      .sub-titulo {
-        font-family: $fontTitle;
-        font-size: 25px;
-        color: #ccc;
-        text-transform: uppercase;
-        margin-bottom: 15px;
+        line-height: 90%;
+        margin: 10% 5% 2%;
+        position: relative;
+        z-index: 2;
+        @media (min-width: 1500px) {
+          font-size: 4rem;
+        }
+        >small {
+          font-family: Poiret One;
+          font-size: 3rem;
+          letter-spacing: 4px;
+          color: #fff;
+          display: block;
+          @media (min-width: 1500px) {
+            font-size: 4rem;
+          }
+        }
       }
       .text {
-        font-family: $fontText;
-        font-size: 17px;
-        color: #fff;
-        margin-bottom: 30px;
-        margin-left: 10%;
-        text-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+        font-family: "Raleway";
+        color: rgba(255,255,255,1);
+        margin: 0 5%;
+        font-size: 1.1rem;
+        position: relative;
+        z-index: 2;
+        line-height: 160%;
+        b {
+          font-weight: bold;
+          text-transform: uppercase;
+        }
       }
     }
   }
+
 
   .caracteristicas {
     // background-color: #231f20;
@@ -110,6 +87,12 @@
         font-size: 27px;
         margin: 16px 0 25px;
         color: #FFCC00;
+      }
+      .sub-titulo {
+        font-family: $fontTitle;
+        font-size: 10px;
+        color: #ccc;
+        text-transform: uppercase;
       }
       .text {
         display: flex;
