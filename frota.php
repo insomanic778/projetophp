@@ -53,7 +53,7 @@
           <div class="pin">
             <img src="dist/img/carros/corolla.jpg" alt="" class="img" />
             <h3 class="grupo">Grupo D</h3>
-            <p class="nome">Corolla</p>
+            <p class="nome">Cruze</p>
           </div>
 
           <div class="pin">

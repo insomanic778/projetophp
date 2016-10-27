@@ -10,7 +10,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('dist/css'));
 });
 
-// PARTE EM QUE JOGAR O JS DENTEO DE BOWER PARA A PASTA DIST
+// PARTE EM QUE JOGA O JS DENTRO DO BOWER PARA A PASTA DIST
 gulp.task('build-js', function(){
 	return gulp.src([
 		'source/bower_components/jquery/dist/jquery.min.js',
@@ -23,7 +23,7 @@ gulp.task('build-js', function(){
 	.pipe(gulp.dest('dist/js/libs'))
 });
 
-// AQUI É JS QUE VOCE IRA FAZER!
+// AQUI É O JS QUE VOCE IRA FAZER!
 gulp.task('minificar-js', function () {
   return gulp.src('source/js/*.js')
   .pipe(uglify())
@@ -31,12 +31,10 @@ gulp.task('minificar-js', function () {
 });
 
 
-// PARTE EM QUE O GULP FICAR "ESCUTANDO" O ARQUIVO QUE VOCE ESTÁ MEXENDO, PORQUE AI É SO VOCE SALVAR QUE ELE COMPILAR AUTOMATICO
+// PARTE EM QUE O GULP FICA "ESCUTANDO" O ARQUIVO QUE VOCE ESTÁ MEXENDO, PORQUE AI É SO VOCE SALVAR QUE ELE COMPILA AUTOMATICO
 gulp.task('watch', function () {
   gulp.watch('source/sass/**/*.scss', ['sass']);
   gulp.watch('source/js/*.js',     ['minificar-js']);
 });
-
-
 
 gulp.task('default', ['build-js','minificar-js','sass','watch'], function(){});
