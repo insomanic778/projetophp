@@ -19,10 +19,10 @@
       </div>
       <div class="direita">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Frota</a></li>
-          <li><a href="#">Reserva</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="home.php">Home</a></li>
+          <li><a href="frota.php">Frota</a></li>
+          <li><a href="reserva.php">Reserva</a></li>
+          <li><a href="contato.php">Contato</a></li>
         </ul>
       </div>
     </nav>
