@@ -26,6 +26,9 @@
     right: 0;
     top: 0;
     background-color: #220632;
+    @media (min-width: 1500px) {
+      width: 90%;
+    }
 
   }
   .esquerda,
