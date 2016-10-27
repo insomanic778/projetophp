@@ -11,7 +11,7 @@
       <textarea name="" rows="8" cols="40" class="form-control" placeholder="Digite aqui sua mensagem"></textarea>
       <button type="submit" name="button" class="btn">Enviar contato</button>
 
-      <p class="text">(00) 0000-0000 | (00) 0 000-0000  | email@empresa.com.br</p>
+      <p class="text">(44) 3345-2090 | (44) 99643-1221  | hangar@contato.com.br</p>
     </div>
   </section>
 </main>
