@@ -19,7 +19,7 @@
       </div>
       <div class="direita">
         <ul>
-          <li><a href="home.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="frota.php">Frota</a></li>
           <li><a href="reserva.php">Reserva</a></li>
           <li><a href="contato.php">Contato</a></li>
