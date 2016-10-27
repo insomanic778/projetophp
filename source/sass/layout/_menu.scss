@@ -10,17 +10,17 @@
   &:before {
     content: "";
     width: 10%;
-    height: 70px;
+    height: 80px;
     position: absolute;
     left: 100px;
     top: 0;
-    transform: rotate(-50deg);
+    transform: rotate(-60deg);
     background-color: #220632;
     z-index: 1;
   }
   &:after {
     content: "";
-    width: 80%;
+    width: 87%;
     height: 70px;
     position: absolute;
     right: 0;
