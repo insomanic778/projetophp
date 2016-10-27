@@ -1,27 +1,108 @@
 .menu {
   position: relative;
   z-index: 2;
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    padding-top:30px;
-    padding-right: 30px;
-    li {
-       margin: 0 15px;
-      a {
-        color: #eee;
-        text-transform: uppercase;
-        font-family:"Dosis";
-        font-size:21px;
-        letter-spacing: 2px;
-        text-decoration: none;
-        transition: 0.3s;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  &:before {
+    content: "";
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    transform: rotate(-50deg);
+    background-color: #220632;
+    z-index: 1;
+  }
+  &:after {
+    content: "";
+    width: 90%;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #220632;
 
-        &:hover {
-          opacity: 0.6;
-          transition: 0.3s;
-        }
+  }
+  .esquerda,
+  .direita {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    padding: 0 1.5rem;
+  }
+  .esquerda {
+    .titulo {
+      font-family: "Montserrat";
+      font-size: 3rem;
+      color: #fff;
+      text-transform: uppercase;
+      >small {
+        font-family: "Poiret One";
+        font-size: 1.5rem;
+        letter-spacing: 4px;
       }
     }
   }
+
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    line-height: 70px;
+    li {
+      padding: 0 15px;
+      transition: 0.3s;
+      &:hover {
+        background-color: rgba(255,255,255,1);
+        transition: 0.3s;
+        a {
+          color: #333;
+          transition: 0.3s;
+        }
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+      a {
+        display: block;
+        color: #fff;
+        font-family: Lato;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+    }
+  }
+
+
+  // ul {
+  //   display: flex;
+  //   justify-content: flex-end;
+  //   padding-top:30px;
+  //   padding-right: 30px;
+  //   position: relative;
+  //   z-index: 2;
+  //   li {
+  //     margin: 0 15px;
+  //     a {
+  //       color: #eee;
+  //       text-transform: uppercase;
+  //       font-family:"Dosis";
+  //       font-size:21px;
+  //       letter-spacing: 2px;
+  //       text-decoration: none;
+  //       transition: 0.3s;
+  //
+  //       &:hover {
+  //         opacity: 0.6;
+  //         transition: 0.3s;
+  //       }
+  //     }
+  //   }
+  // }
 }

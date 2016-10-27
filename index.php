@@ -1,6 +1,8 @@
 <?php include "includes/header.php" ?>
 
 <main class="home-page">
+
+
   <section class="sobre-nos">
     <div class="_container">
       <div class="_row">
@@ -45,7 +47,7 @@
         </div>
       </div>
     </section>
-    
+
     <section class="caracteristicas">
       <div class="_container">
         <div class="_row">
